@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mooli&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,900&display=swap');
+*{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between; /*po osy x vyravnivaet elementy*/
+    align-items: center;
+    height:10vh;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+  
+}
+.logo{
+    margin-left:0px;
+    margin-top: 0px;
+    color: rgb(9,9,9);
+}
+.logo img{
+    height: 5vh;
+    margin-left:10px;
+    margin-top: 0px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding:0px 15px;
+    color:rgb(1, 9, 16);
+    transition: all ease 0.3s;
+}
+.nav ul li a:hover{
+    color:#8e0116;
+    font-weight: bolder;
+}
+.user{
+    cursor: pointer;
+    color: rgba(9, 0, 0, 0.901);
+    margin-top: 0px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color:#8e0116;
+    padding:10px 10px;
+    transition: all ease 0.3s;
+}
+.user i{
+    font-size: 25px;
+    transition: all ease 0.3s;
+    padding: 10px 10px;
+}
