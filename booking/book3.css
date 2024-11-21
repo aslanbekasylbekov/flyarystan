@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+div{
+    display: block;
+}
+
+body{
+    font-size: 16px;
+    text-align: left;
+}
+
+p{
+    display: block;
+    margin: 0;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#2D3038
+}
+
+
+header{
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px 10%;
+    transition: ease .40s;
+    box-shadow: 0px 0px 1px rgba(45, 48, 56, 0.2), 0px 6px 16px rgba(45, 48, 56, 0.12);
+}
+
+#logo{
+    width: 150px;
+}
+
+.container{
+    display: flex;
+    padding: 10px 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+.great-container{
+    padding: 80px 150px;
+}
+.great-first-box{
+    padding-bottom: 40px;
+}
+.great-first-box h1{
+    color: #001E62;
+    font-weight: 700;
+}
+.great-first-box h4{
+    font-weight: 70;
+}
+
+.great-second-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.great-text h1{
+    color: #001E62;;
+}
+.great-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.great-text-two{
+    padding: 20px 0;
+}
+.great-text-four{
+    padding: 20px 0;
+}
+.great-text-six{
+    padding: 20px 0;
+}
+.great-text-eight{
+    padding: 20px 0;
+}
+.great-text-ten{
+    padding: 20px 0;
+}
+.great-text-blocks{
+    margin: 20px  0;
+    margin-left: 30px;
+}
+.great-text-blocks p{
+    color: #001E62;
+    font-weight: 300;
+}
+.great-image-column{
+    align-items: center;
+    position: fixed;
+    margin-left: 730px; 
+    text-align: center;
+    box-shadow: 0px 0px 1px rgba(45, 48, 56, 0.2), 0px 6px 16px rgba(45, 48, 56, 0.12);
+    padding: 25px;
+    
+}
+.great-image img{
+    width: 300px;
+}
+.great-image .button{
+    border: solid 1px #A31F34;
+    background: #A31F34;;
+    padding: 20px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.great-image .button a{
+    color: aliceblue;
+}
+
+
